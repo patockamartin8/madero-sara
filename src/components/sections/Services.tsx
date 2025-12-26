@@ -49,7 +49,7 @@ export function Services() {
 
                     <div className="relative h-full min-h-[400px] rounded-2xl overflow-hidden shadow-xl">
                         <NextImage
-                            src="/images/IMG_5915.jpg"
+                            src="/images/IMG_5915.JPG"
                             alt="Maderoterapie relaxace"
                             fill
                             className="object-cover brightness-110"
