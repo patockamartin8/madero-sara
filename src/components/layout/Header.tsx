@@ -20,7 +20,7 @@ export function Header() {
     const navLinks = [
         { href: "#masaze", label: "Masáže a Maderoterapie" },
         { href: "#maderoterapie", label: "Ceník" },
-        { href: "#holicstvi", label: "Pánské stříhání" },
+        { href: "#holicstvi", label: "Kadeřnictví" },
         { href: "#kontakt", label: "Kontakt" },
     ];
 

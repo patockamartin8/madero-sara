@@ -49,124 +49,98 @@ export function Services() {
 
                     <div className="relative h-full min-h-[400px] rounded-2xl overflow-hidden shadow-xl">
                         <NextImage
-                            src="/images/maderotherapy.png"
+                            src="/images/IMG_5915.jpg"
                             alt="Maderoterapie relaxace"
                             fill
-                            className="object-cover"
+                            className="object-cover brightness-110"
                         />
-                        <div className="bg-black/30 w-full h-full absolute inset-0"></div>
+                        <div className="bg-white/5 w-full h-full absolute inset-0"></div>
                     </div>
                 </div>
 
 
                 {/* Price List Section */}
                 <div className="mt-24 grid md:grid-cols-2 gap-16">
-                    {/* Klasické masáže */}
-                    <div>
-                        <h3 className="text-2xl font-serif font-bold text-wood-dark mb-8 border-b-2 border-wood-light/50 pb-2 inline-block">Klasické masáže</h3>
-                        <div className="space-y-8">
-                            <div className="group hover:bg-white hover:shadow-sm p-4 -mx-4 rounded-xl transition-all">
-                                <div className="flex justify-between items-baseline mb-2">
-                                    <h4 className="text-xl font-bold text-wood-dark">Klasická masáž celého těla</h4>
-                                    <div className="flex items-center gap-4">
-                                        <span className="text-sm font-medium text-wood-medium">1h</span>
-                                        <span className="text-lg font-bold text-wood-dark">690 Kč</span>
+                    {/* Left Column */}
+                    <div className="space-y-16">
+                        {/* Klasické masáže */}
+                        <div>
+                            <h3 className="text-2xl font-serif font-bold text-wood-dark mb-8 border-b-2 border-wood-light/50 pb-2 inline-block">Klasické masáže</h3>
+                            <div className="space-y-8">
+                                <div className="group hover:bg-white hover:shadow-sm p-4 -mx-4 rounded-xl transition-all">
+                                    <div className="flex justify-between items-baseline mb-2">
+                                        <h4 className="text-xl font-bold text-wood-dark">Klasická masáž celého těla</h4>
+                                        <div className="flex items-center gap-4">
+                                            <span className="text-sm font-medium text-wood-medium">1h</span>
+                                            <span className="text-lg font-bold text-wood-dark">690 Kč</span>
+                                        </div>
                                     </div>
+                                    <p className="text-wood-medium mb-3">Plošný tlak maséra, kterým se zpracovává celé tělo.</p>
                                 </div>
-                                <p className="text-wood-medium mb-3">Plošný tlak maséra, kterým se zpracovává celé tělo.</p>
-                            </div>
 
-                            <div className="group hover:bg-white hover:shadow-sm p-4 -mx-4 rounded-xl transition-all">
-                                <div className="flex justify-between items-baseline mb-2">
-                                    <h4 className="text-xl font-bold text-wood-dark">Klasická masáž zad a šíje</h4>
-                                    <div className="flex items-center gap-4">
-                                        <span className="text-sm font-medium text-wood-medium">1h</span>
-                                        <span className="text-lg font-bold text-wood-dark">600 Kč</span>
+                                <div className="group hover:bg-white hover:shadow-sm p-4 -mx-4 rounded-xl transition-all">
+                                    <div className="flex justify-between items-baseline mb-2">
+                                        <h4 className="text-xl font-bold text-wood-dark">Klasická masáž šíje</h4>
+                                        <div className="flex items-center gap-4">
+                                            <span className="text-sm font-medium text-wood-medium">30m</span>
+                                            <span className="text-lg font-bold text-wood-dark">300 Kč</span>
+                                        </div>
                                     </div>
+                                    <p className="text-wood-medium mb-3 text-pretty">Stres se nejčastěji hromadí kolem krku a ramen. Nejenže vám může pomoci od ztuhlých svalů, ale i od bolesti hlavy spojené s napětím.</p>
                                 </div>
-                                <p className="text-wood-medium mb-3">Plošný tlak maséra, kterým se zpracovávají záda a šíje.</p>
                             </div>
+                        </div>
 
-                            <div className="group hover:bg-white hover:shadow-sm p-4 -mx-4 rounded-xl transition-all">
-                                <div className="flex justify-between items-baseline mb-2">
-                                    <h4 className="text-xl font-bold text-wood-dark">Klasická masáž šíje</h4>
-                                    <div className="flex items-center gap-4">
-                                        <span className="text-sm font-medium text-wood-medium">30m</span>
-                                        <span className="text-lg font-bold text-wood-dark">300 Kč</span>
+                        {/* Relaxační masáže */}
+                        <div>
+                            <h3 className="text-2xl font-serif font-bold text-wood-dark mb-8 border-b-2 border-wood-light/50 pb-2 inline-block">Relaxační masáže</h3>
+                            <div className="space-y-8">
+                                <div className="group hover:bg-white hover:shadow-sm p-4 -mx-4 rounded-xl transition-all">
+                                    <div className="flex justify-between items-baseline mb-2">
+                                        <h4 className="text-xl font-bold text-wood-dark">Masáž lávovými kameny</h4>
+                                        <div className="flex items-center gap-4">
+                                            <span className="text-sm font-medium text-wood-medium">90m</span>
+                                            <span className="text-lg font-bold text-wood-dark">890 Kč</span>
+                                        </div>
                                     </div>
+                                    <p className="text-wood-medium mb-3">Kombinace klasické masáže a přikládání horkých lávových kamenů.</p>
                                 </div>
-                                <p className="text-wood-medium mb-3 text-pretty">Stres se nejčastěji hromadí kolem krku a ramen. Nejenže vám může pomoci od ztuhlých svalů, ale i od bolesti hlavy spojené s napětím.</p>
                             </div>
                         </div>
                     </div>
 
-                    {/* Maderoterapie */}
-                    <div id="maderoterapie" className="scroll-mt-28">
-                        <h3 className="text-2xl font-serif font-bold text-wood-dark mb-8 border-b-2 border-wood-light/50 pb-2 inline-block">Maderoterapie</h3>
-                        <div className="space-y-8">
-                            <div className="group hover:bg-white hover:shadow-sm p-4 -mx-4 rounded-xl transition-all">
-                                <div className="flex justify-between items-baseline mb-2">
-                                    <h4 className="text-xl font-bold text-wood-dark">Kombinovaná maderoterapie</h4>
-                                    <div className="flex items-center gap-4">
-                                        <span className="text-sm font-medium text-wood-medium">1h</span>
-                                        <span className="text-lg font-bold text-wood-dark">790 Kč</span>
+                    {/* Right Column */}
+                    <div className="space-y-16">
+                        {/* Maderoterapie */}
+                        <div id="maderoterapie" className="scroll-mt-28">
+                            <h3 className="text-2xl font-serif font-bold text-wood-dark mb-8 border-b-2 border-wood-light/50 pb-2 inline-block">Maderoterapie</h3>
+                            <div className="space-y-8">
+                                <div className="group hover:bg-white hover:shadow-sm p-4 -mx-4 rounded-xl transition-all">
+                                    <div className="flex justify-between items-baseline mb-2">
+                                        <h4 className="text-xl font-bold text-wood-dark">Kombinovaná maderoterapie celého těla</h4>
+                                        <div className="flex items-center gap-4">
+                                            <span className="text-sm font-medium text-wood-medium">1h</span>
+                                            <span className="text-lg font-bold text-wood-dark">790 Kč</span>
+                                        </div>
                                     </div>
+                                    <p className="text-wood-medium mb-3 text-pretty">Kombinace klasické a brazilské maderoterapie. Provádí se zvony a válečky pro odstranění celulitidy.</p>
                                 </div>
-                                <p className="text-wood-medium mb-3 text-pretty">Kombinace klasické a brazilské maderoterapie. Provádí se zvony a válečky pro odstranění celulitidy.</p>
-                            </div>
-
-                            <div className="group hover:bg-white hover:shadow-sm p-4 -mx-4 rounded-xl transition-all">
-                                <div className="flex justify-between items-baseline mb-2">
-                                    <h4 className="text-xl font-bold text-wood-dark">Brazilská maderoterapie</h4>
-                                    <div className="flex items-center gap-4">
-                                        <span className="text-sm font-medium text-wood-medium">1h</span>
-                                        <span className="text-lg font-bold text-wood-dark">790 Kč</span>
-                                    </div>
-                                </div>
-                                <p className="text-wood-medium mb-3 text-pretty">Speciální technika s vakuovými zvony, která napomáhá ke tvarování postavy a stimulaci lymfatického systému.</p>
-                            </div>
-
-                            <div className="group hover:bg-white hover:shadow-sm p-4 -mx-4 rounded-xl transition-all">
-                                <div className="flex justify-between items-baseline mb-2">
-                                    <h4 className="text-xl font-bold text-wood-dark">Maderoterapie celého těla</h4>
-                                    <div className="flex items-center gap-4">
-                                        <span className="text-sm font-medium text-wood-medium">1h</span>
-                                        <span className="text-lg font-bold text-wood-dark">690 Kč</span>
-                                    </div>
-                                </div>
-                                <p className="text-wood-medium mb-3">Speciální masážní technika napomáhající tvarování postavy.</p>
                             </div>
                         </div>
-                    </div>
 
-                    {/* Relaxační masáže */}
-                    <div>
-                        <h3 className="text-2xl font-serif font-bold text-wood-dark mb-8 border-b-2 border-wood-light/50 pb-2 inline-block">Relaxační masáže</h3>
-                        <div className="space-y-8">
-                            <div className="group hover:bg-white hover:shadow-sm p-4 -mx-4 rounded-xl transition-all">
-                                <div className="flex justify-between items-baseline mb-2">
-                                    <h4 className="text-xl font-bold text-wood-dark">Masáž lávovými kameny</h4>
-                                    <div className="flex items-center gap-4">
-                                        <span className="text-sm font-medium text-wood-medium">1h</span>
-                                        <span className="text-lg font-bold text-wood-dark">700 Kč</span>
+                        {/* Tradiční čínské masáže */}
+                        <div>
+                            <h3 className="text-2xl font-serif font-bold text-wood-dark mb-8 border-b-2 border-wood-light/50 pb-2 inline-block">Tradiční čínské masáže</h3>
+                            <div className="space-y-8">
+                                <div className="group hover:bg-white hover:shadow-sm p-4 -mx-4 rounded-xl transition-all">
+                                    <div className="flex justify-between items-baseline mb-2">
+                                        <h4 className="text-xl font-bold text-wood-dark">Čínská masáž hlavy a šíje</h4>
+                                        <div className="flex items-center gap-4">
+                                            <span className="text-sm font-medium text-wood-medium">30m</span>
+                                            <span className="text-lg font-bold text-wood-dark">300 Kč</span>
+                                        </div>
                                     </div>
-                                </div>
-                                <p className="text-wood-medium mb-3">Kombinace klasické masáže a přikládání horkých lávových kamenů.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    {/* Tradiční čínské masáže */}
-                    <div>
-                        <h3 className="text-2xl font-serif font-bold text-wood-dark mb-8 border-b-2 border-wood-light/50 pb-2 inline-block">Tradiční čínské masáže</h3>
-                        <div className="space-y-8">
-                            <div className="group hover:bg-white hover:shadow-sm p-4 -mx-4 rounded-xl transition-all">
-                                <div className="flex justify-between items-baseline mb-2">
-                                    <h4 className="text-xl font-bold text-wood-dark">Čínská masáž hlavy a šíje</h4>
-                                    <div className="flex items-center gap-4">
-                                        <span className="text-sm font-medium text-wood-medium">30m</span>
-                                        <span className="text-lg font-bold text-wood-dark">300 Kč</span>
-                                    </div>
+                                    <p className="text-wood-medium mb-3">Akupresurní technika zaměřená na uvolnění napětí v oblasti hlavy, šíje a ramen. Pomáhá od stresu a bolestí hlavy.</p>
                                 </div>
                             </div>
                         </div>
@@ -174,7 +148,7 @@ export function Services() {
                 </div>
 
                 <div className="mt-16 text-center">
-                    <p className="text-wood-medium mb-4 italic">Možnost platby v hotovosti nebo přes QR kód.</p>
+                    <p className="text-xl text-wood-bold mb-4 italic">Možnost platby v hotovosti nebo přes QR kód.</p>
                     <a
                         href="https://www.notino.cz/salony/masaze-a-maderoterapie-sara_1/"
                         target="_blank"
@@ -190,8 +164,8 @@ export function Services() {
             < section id="holicstvi" className="bg-wood-dark/5 py-20 scroll-mt-24" >
                 <div className="container mx-auto px-6">
                     <SectionHeading
-                        title="Pánské a Dětské Stříhání"
-                        subtitle="Precizní střihy pro pány a malé gentlemany ve stejném stylovém prostředí."
+                        title="Kadeřnictví Sára"
+                        subtitle="Klasické stříhání za sucha pro pány, dámy i děti v příjemném prostředí."
                     />
 
                     <div className="max-w-4xl mx-auto">
@@ -206,22 +180,23 @@ export function Services() {
                                     </div>
                                     <div className="space-y-6">
                                         <div className="flex justify-between items-center border-b border-dashed border-wood-light pb-4">
-                                            <span className="font-medium text-lg text-wood-dark">Pánský střih</span>
-                                            <span className="font-bold text-xl text-wood-dark">250 Kč</span>
+                                            <span className="font-medium text-lg text-wood-dark">Dámský střih dlouhé</span>
+                                            <span className="font-bold text-xl text-wood-dark">220 Kč</span>
                                         </div>
                                         <div className="flex justify-between items-center border-b border-dashed border-wood-light pb-4">
-                                            <span className="font-medium text-lg text-wood-dark">Dětský střih</span>
+                                            <span className="font-medium text-lg text-wood-dark">Dámský střih krátké</span>
+                                            <span className="font-bold text-xl text-wood-dark">190 Kč</span>
+                                        </div>
+                                        <div className="flex justify-between items-center border-b border-dashed border-wood-light pb-4">
+                                            <span className="font-medium text-lg text-wood-dark">Pánský střih</span>
                                             <span className="font-bold text-xl text-wood-dark">180 Kč</span>
                                         </div>
                                         <div className="flex justify-between items-center border-b border-dashed border-wood-light pb-4">
-                                            <span className="font-medium text-lg text-wood-dark">Pánský + Dětský střih</span>
-                                            <div className="text-right">
-                                                <span className="font-bold text-xl text-wood-dark block">390 Kč</span>
-                                                <span className="text-sm text-green-600 font-medium">Výhodná cena</span>
-                                            </div>
+                                            <span className="font-medium text-lg text-wood-dark">Dětský střih</span>
+                                            <span className="font-bold text-xl text-wood-dark">150 Kč</span>
                                         </div>
                                     </div>
-                                    <p className="mt-6 text-wood-medium text-sm italic">
+                                    <p className="mt-6 text-wood-bold text-lg italic">
                                         Možnost platby v hotovosti nebo přes QR kód.
                                     </p>
                                 </div>

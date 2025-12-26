@@ -47,7 +47,7 @@ export function Contact() {
 
                     <div className="h-[400px] w-full bg-wood-light/10 rounded-2xl overflow-hidden border border-wood-light/20 relative">
                         <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2616.5878413985794!2d15.8927!3d49.0956!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDnCsDA1JzQ0LjIiTiAxNcKwNTMnMzMuNyJF!5e0!3m2!1scs!2scz!4v1635770000000!5m2!1scs!2scz"
+                            src="https://maps.google.com/maps?q=49.099135815644864,15.886416741714585&t=&z=15&ie=UTF8&iwloc=&output=embed"
                             width="100%"
                             height="100%"
                             style={{ border: 0 }}

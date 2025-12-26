@@ -9,10 +9,9 @@ export function Hero() {
             {/* Background with overlay */}
             <div className="absolute inset-0 bg-gradient-to-b from-black/30 to-[#3E2723]/60 z-10" />
 
-            {/* Wood Texture Effect (CSS Gradient) */}
+            {/* Background Image */}
             <div
-                className="absolute inset-0 opacity-20 z-0 bg-[url('https://images.unsplash.com/photo-1542273917363-3b1817f69a2d?q=80&w=2074&auto=format&fit=crop')] bg-cover bg-center"
-                style={{ filter: 'grayscale(30%) sepia(20%)' }}
+                className="absolute inset-0 z-0 bg-[url('/images/IMG_5429.JPG.png')] bg-cover bg-center"
             ></div>
 
             <div className="container relative z-20 px-6 text-center text-cream">
@@ -26,7 +25,7 @@ export function Hero() {
                         <span className="text-wood-light italic">pod jednou střechou</span>
                     </h1>
                     <p className="text-lg md:text-xl text-wood-light/90 max-w-2xl mx-auto mb-10">
-                        Profesionální maderoterapie pro ženy a precizní stříhání pro pány a děti.
+                        Profesionální maderoterapie a precizní stříhání pro celou rodinu.
                         Navštivte nás v dřevěném ráji v Jaroměřicích nad Rokytnou.
                     </p>
 
@@ -41,7 +40,7 @@ export function Hero() {
                             href="#holicstvi"
                             className="border-2 border-wood-light text-wood-light px-8 py-3 rounded-full font-semibold hover:bg-wood-light hover:text-wood-dark transition-all transform hover:scale-105"
                         >
-                            Pánské stříhání
+                            Kadeřnictví
                         </Link>
                     </div>
                 </motion.div>
