@@ -82,7 +82,7 @@ export function Services() {
                                     <div className="flex justify-between items-baseline mb-2">
                                         <h4 className="text-xl font-bold text-wood-dark">Klasická masáž šíje</h4>
                                         <div className="flex items-center gap-4">
-                                            <span className="text-sm font-medium text-wood-medium">30m</span>
+                                            <span className="text-sm font-medium text-wood-medium">30min</span>
                                             <span className="text-lg font-bold text-wood-dark">300 Kč</span>
                                         </div>
                                     </div>
@@ -99,7 +99,7 @@ export function Services() {
                                     <div className="flex justify-between items-baseline mb-2">
                                         <h4 className="text-xl font-bold text-wood-dark">Masáž lávovými kameny</h4>
                                         <div className="flex items-center gap-4">
-                                            <span className="text-sm font-medium text-wood-medium">90m</span>
+                                            <span className="text-sm font-medium text-wood-medium">90min</span>
                                             <span className="text-lg font-bold text-wood-dark">890 Kč</span>
                                         </div>
                                     </div>
@@ -136,7 +136,7 @@ export function Services() {
                                     <div className="flex justify-between items-baseline mb-2">
                                         <h4 className="text-xl font-bold text-wood-dark">Čínská masáž hlavy a šíje</h4>
                                         <div className="flex items-center gap-4">
-                                            <span className="text-sm font-medium text-wood-medium">30m</span>
+                                            <span className="text-sm font-medium text-wood-medium">30min</span>
                                             <span className="text-lg font-bold text-wood-dark">300 Kč</span>
                                         </div>
                                     </div>
