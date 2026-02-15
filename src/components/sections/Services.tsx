@@ -1,5 +1,5 @@
 import { SectionHeading } from "@/components/ui/SectionHeading";
-import { Check, User, Scissors } from "lucide-react";
+import { Check, Scissors } from "lucide-react";
 import NextImage from "next/image";
 
 export function Services() {
@@ -41,6 +41,7 @@ export function Services() {
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="w-full block text-center bg-wood-dark text-wood-light py-3 rounded-lg hover:bg-wood-medium transition-colors"
+                                aria-label="Rezervovat maderoterapii na Notino"
                             >
                                 Rezervovat Maderoterapii
                             </a>
@@ -50,7 +51,7 @@ export function Services() {
                     <div className="relative h-full min-h-[400px] rounded-2xl overflow-hidden shadow-xl">
                         <NextImage
                             src="/images/IMG_5915.JPG"
-                            alt="Maderoterapie relaxace"
+                            alt="Relaxační maderoterapie v příjemném dřevěném prostředí studia Masáže Sára"
                             fill
                             className="object-cover brightness-110"
                         />
@@ -154,6 +155,7 @@ export function Services() {
                         target="_blank"
                         rel="noopener noreferrer"
                         className="inline-block px-12 py-4 bg-wood-dark text-wood-light text-lg font-bold rounded-lg hover:bg-wood-medium transition-colors shadow-lg"
+                        aria-label="Rezervovat termín masáže na Notino"
                     >
                         Rezervovat termín
                     </a>
@@ -204,10 +206,10 @@ export function Services() {
                                 <div className="bg-wood-dark text-cream p-8 rounded-xl min-w-[300px] md:min-w-[350px] text-center">
                                     <h4 className="text-xl font-bold mb-4 font-serif">Chci se ostříhat</h4>
                                     <p className="mb-6 opacity-90">Objednávky přijímáme telefonicky nebo e-mailem.</p>
-                                    <a href="tel:+420775442669" className="block w-full bg-wood-light text-wood-dark font-bold py-3 rounded mb-3 hover:bg-white transition-colors">
+                                    <a href="tel:+420775442669" className="block w-full bg-wood-light text-wood-dark font-bold py-3 rounded mb-3 hover:bg-white transition-colors" aria-label="Zavolat na +420 775 442 669">
                                         +420 775 442 669
                                     </a>
-                                    <a href="mailto:maderosara@seznam.cz" className="block w-full border border-wood-light text-wood-light font-bold py-3 rounded hover:bg-wood-light hover:text-wood-dark transition-colors">
+                                    <a href="mailto:maderosara@seznam.cz" className="block w-full border border-wood-light text-wood-light font-bold py-3 rounded hover:bg-wood-light hover:text-wood-dark transition-colors" aria-label="Napsat e-mail na maderosara@seznam.cz">
                                         maderosara@seznam.cz
                                     </a>
                                 </div>

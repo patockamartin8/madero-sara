@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { motion } from "framer-motion";
 
 export function Hero() {
@@ -10,9 +11,14 @@ export function Hero() {
             <div className="absolute inset-0 bg-gradient-to-b from-black/30 to-[#3E2723]/60 z-10" />
 
             {/* Background Image */}
-            <div
-                className="absolute inset-0 z-0 bg-[url('/images/IMG_5429.JPG.png')] bg-cover bg-center"
-            ></div>
+            <Image
+                src="/images/IMG_5429.JPG.png"
+                alt="Relaxační prostředí studia Masáže Sára v Jaroměřicích nad Rokytnou - dřevěný interiér s masážním stolem"
+                fill
+                priority
+                className="object-cover object-center z-0"
+                sizes="100vw"
+            />
 
             <div className="container relative z-20 px-6 text-center text-cream">
                 <motion.div
@@ -33,12 +39,14 @@ export function Hero() {
                         <Link
                             href="#masaze"
                             className="bg-wood-light text-wood-dark px-8 py-3 rounded-full font-semibold hover:bg-white transition-all transform hover:scale-105"
+                            aria-label="Přejít na sekci Masáže a Maderoterapie"
                         >
                             Maderoterapie
                         </Link>
                         <Link
                             href="#holicstvi"
                             className="border-2 border-wood-light text-wood-light px-8 py-3 rounded-full font-semibold hover:bg-wood-light hover:text-wood-dark transition-all transform hover:scale-105"
+                            aria-label="Přejít na sekci Kadeřnictví"
                         >
                             Kadeřnictví
                         </Link>

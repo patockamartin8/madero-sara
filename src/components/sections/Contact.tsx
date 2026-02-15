@@ -1,5 +1,5 @@
 import { SectionHeading } from "@/components/ui/SectionHeading";
-import { MapPin, Phone, Mail, Clock } from "lucide-react";
+import { MapPin, Phone, Mail } from "lucide-react";
 
 export function Contact() {
     return (
@@ -26,7 +26,7 @@ export function Contact() {
                                 <Phone className="text-wood-light shrink-0 mt-1" size={24} />
                                 <div>
                                     <p className="font-bold text-lg">Telefon</p>
-                                    <a href="tel:+420775442669" className="text-wood-light hover:text-white transition-colors text-lg">
+                                    <a href="tel:+420775442669" className="text-wood-light hover:text-white transition-colors text-lg" aria-label="Zavolat na +420 775 442 669">
                                         +420 775 442 669
                                     </a>
                                     <p className="text-sm opacity-60">Objednávky (Masáže i Stříhání)</p>
@@ -37,7 +37,7 @@ export function Contact() {
                                 <Mail className="text-wood-light shrink-0 mt-1" size={24} />
                                 <div>
                                     <p className="font-bold text-lg">E-mail</p>
-                                    <a href="mailto:maderosara@seznam.cz" className="text-wood-light hover:text-white transition-colors text-lg">
+                                    <a href="mailto:maderosara@seznam.cz" className="text-wood-light hover:text-white transition-colors text-lg" aria-label="Napsat e-mail na maderosara@seznam.cz">
                                         maderosara@seznam.cz
                                     </a>
                                 </div>

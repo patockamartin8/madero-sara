@@ -30,12 +30,12 @@ export function Header() {
                 }`}
         >
             <div className="container mx-auto px-6 flex justify-between items-center">
-                <Link href="/" className={`text-2xl font-serif font-bold transition-colors ${scrolled ? "text-wood-dark" : "text-cream"}`}>
+                <Link href="/" className={`text-2xl font-serif font-bold transition-colors ${scrolled ? "text-wood-dark" : "text-cream"}`} aria-label="Masáže Sára - návrat na úvodní stránku">
                     Sára Patočková
                 </Link>
 
                 {/* Desktop Nav */}
-                <nav className="hidden md:flex gap-8">
+                <nav className="hidden md:flex gap-8" aria-label="Hlavní navigace">
                     {navLinks.map((link) => (
                         <Link
                             key={link.href}
@@ -51,6 +51,8 @@ export function Header() {
                 <button
                     className={`md:hidden transition-colors ${scrolled ? "text-wood-dark" : "text-cream"}`}
                     onClick={() => setIsOpen(!isOpen)}
+                    aria-label={isOpen ? "Zavřít menu" : "Otevřít menu"}
+                    aria-expanded={isOpen}
                 >
                     {isOpen ? <X size={28} /> : <Menu size={28} />}
                 </button>
@@ -65,7 +67,7 @@ export function Header() {
                         exit={{ opacity: 0, height: 0 }}
                         className="md:hidden bg-cream border-t border-wood-light overflow-hidden"
                     >
-                        <nav className="flex flex-col p-6 gap-4">
+                        <nav className="flex flex-col p-6 gap-4" aria-label="Mobilní navigace">
                             {navLinks.map((link) => (
                                 <Link
                                     key={link.href}
